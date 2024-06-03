@@ -1,0 +1,10 @@
+    const productsRouter = require('express').Router();:
+        Importa o módulo Router do Express para criar um novo roteador.
+    const controller = require('../controllers/products');:
+        Importa o módulo do controlador dos produtos, que contém a lógica de negócios para operações CRUD nos produtos.
+    const authMiddleware = require('../middlewares/auth');:
+        Importa um middleware de autenticação que pode ser usado para proteger rotas sensíveis, garantindo que apenas usuários autenticados possam acessá-las.
+    Rotas:
+        Cada rota associa um método HTTP (como GET, POST, PUT, DELETE) a um endpoint específico. Cada endpoint está vinculado a uma função no controlador que executa a lógica necessária. O middleware de autenticação é usado como um filtro inicial para todas as rotas, protegendo-as.
+    module.exports = productsRouter;:
+        Exporta o roteador configurado para que possa ser usado no aplicativo principal do Express.

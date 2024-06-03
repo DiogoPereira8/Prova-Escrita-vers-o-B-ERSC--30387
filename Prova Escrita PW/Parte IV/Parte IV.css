@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+table {
+    width: 60%;
+    margin: 50px auto;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    color: #fff;
+}
+.nike {
+    background-color: #ff0000;
+}
+.adidas {
+    background-color: #22ff00;
+}
+.puma {
+    background-color: #f6ff00;
+    color: #F5F5F5;
+}
+.umbro {
+    background-color: #005BBB;
+}
+img {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}

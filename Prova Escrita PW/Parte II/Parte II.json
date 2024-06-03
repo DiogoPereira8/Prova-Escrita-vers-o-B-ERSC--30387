@@ -1,0 +1,21 @@
+{
+    "movies": [
+      {
+        "title": "Inception",
+        "year": 2010,
+        "actors": [
+          {"name": "Leonardo DiCaprio", "role": "Cobb"},
+          {"name": "Joseph Gordon-Levitt", "role": "Arthur"}
+        ]
+      },
+      {
+        "title": "The Matrix",
+        "year": 1999,
+        "actors": [
+          {"name": "Keanu Reeves", "role": "Neo"},
+          {"name": "Laurence Fishburne", "role": "Morpheus"}
+        ]
+      }
+    ]
+  }
+  
